@@ -23,7 +23,7 @@ flatpak kill com.discordapp.Discord
 
 5. Copy your Discord `leveldb` directory containing your token to the root of this repository
 ```
-cp -r ~/.var/app/com.discordapp.Discord/config/discord/Local\ Storage/leveldb ./
+cp -r ~/.var/app/com.discordapp.Discord/config/discord/Local\ Storage/leveldb/ ./
 ```
 
 6. Delete your Discord configuration again to preserve your token (If you logout of the client your token will be invalidated)

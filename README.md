@@ -2,7 +2,7 @@
 This playbook was designed to operate on a Debian 11 LXC. It will run the Discord client in a headless X session and automatically bump your server on Disboard every 124 minutes.
 
 ## Install
-1. This app requires your Discord token in order to authenticate to the Discord client. You must obtain your `leveldb` directory and place it in the root of this directory. This guide assumes you have Discord installed as a Flatpak on a Linux host:
+This app requires your Discord token in order to authenticate to the Discord client. You must obtain your `leveldb` directory and place it in the root of this directory. This guide assumes you have Discord installed as a Flatpak on a Linux host:
 
 1. Delete any existing Discord configuration
 ```

@@ -31,6 +31,6 @@ cp -r ~/.var/app/com.discordapp.Discord/config/discord/Local\ Storage/ ./
 rm -rf ~/.var/app/com.discordapp.Discord/
 ```
 
-7. Update `hosts.yml`
+7. Update variables in `hosts.yml`
 
 8. Run `make install` to run the playbook

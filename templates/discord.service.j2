@@ -1,0 +1,12 @@
+[Unit]
+Description=Automatically bump your server on Disboard
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+Environment=BUMP_CHANNEL='{{ bump_channel }}'
+ExecStart=/usr/bin/xvfb-run /usr/local/bin/discord.sh
+
+[Install]
+WantedBy=default.target
